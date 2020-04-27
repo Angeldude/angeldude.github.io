@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, my name is Angel. I'm a Ruby/Rails and JavaScript web developer who enjoys learning new technologies. I especially love functional programming and continue to learn it on the side while I pay the bills. I am currently learning C#/.NET to broaden my capabilities.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I've also dabbled in many other languages such as: Haskell, Java, C, Elm, Purescript, TypeScript, F#, Ocaml, SMl, Oz, Racket, Shen, APL, J, Scala, D, Go, COBOL, ATS, Idris, Elixir, Rust, Erlang, Python, Lua, and others I can't think of.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+As you can see, I am a fan of programming languages and enjoy learning about them and what makes them special.
 
-
-[jekyll-organization]: https://github.com/jekyll
+I'm also an academically trained musician and my interests also lie in the computer realm. Of the music making languages, I've dabbled in Pure Data, Supercollider, Faust, ChucK, CSound, Nyquist, Euterpea, Sonic Pi, Jython Music, and some others. I'm most familiar with Max/MSP however.
