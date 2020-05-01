@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: A Software Developer
+title: The Annotated Blogger
 email: angelman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My updated site where I will attempt to blog about the things
-  I am learning. For example, the differences (and similarities)
-  to ASP.NET and Rails.
+  I am learning. Currently working through "Logic, Proof, and Computation"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://angeldude.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: namlegna
@@ -26,6 +25,8 @@ github_username:  angeldude
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 theme: minima
 plugins:
   - jekyll-feed
