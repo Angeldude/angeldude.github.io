@@ -15,7 +15,7 @@ Mark Tarver created a lisp-like, optionally typed, programming language called S
 
 - Maths and logics are another class of formal languages. (_I’ve always thought of math as being a way to formalize our imagination_)
 
-- Despite popular opinion, maths are simpler and limited in notation than natural languages. (_I suspect this is the case because we spend most of our lives living/breathing the language we speak_)
+- Despite popular opinion, maths are simpler and limited in notation than natural languages. (_I suspect math is reviled because we spend most of our lives living/breathing the language we speak_)
 Maths and logics will be grouped under **proof systems**.
 
 - A proof system consists of 4 significant features: `syntax`, `semantics`, `proof rules`, and eventually, `heuristics`.
