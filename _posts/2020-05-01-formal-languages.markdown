@@ -32,7 +32,7 @@ Rule 1. <sentence> := a
 Rule 2. <sentence> := a^<sentence>
 ```
 
-- `:=` means 'composed of' the `^` means 'concatenation'.
+- `:=` means 'composed of'; the `^` means 'concatenation'.
 - The first rule can be understood to mean "A \<sentence\> can be composed of a single letter 'a'".
 - The second rule reads "A \<sentence\> can be composed of a single letter 'a' concatenated with another \<sentence\>".
 - This way of defining the rules is called a **recursive definition**.
