@@ -78,14 +78,14 @@ _So, this exercise, when I first encountered it, scrambled my brain. I could not
 _I think it took me a few days and when the answer finally dawned on me, I felt a bit stupid. But I'm not stupid since I'm the one that figured it out so I guess that's that. All it took was placing the recursive portion in a different location in the definition._
 
 ```
-Rule 1. <sentence> := ab
+Rule 1. <sentence> := a^b
 Rule 2. <sentence> := a^<sentence>^b
 ```
 
 _Or if you prefer in Extended BNF:_
 
 ```
-1. <sentence> := ab | a^<sentence>^b
+1. <sentence> := a^b | a^<sentence>^b
 ```
 </details>
 
