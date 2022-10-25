@@ -5,7 +5,7 @@ date: 2020-05-01 14:25:00 -0400
 categories: formal languages
 ---
 
-# Formal languages
+## Formal languages
 
 Mark Tarver created a lisp-like, optionally typed, programming language called Shen. He wrote a book on it and how to use it. He also wrote a book called "Logic, Proof, and Computation". I plan on writing up notes while I work through the book. The book has exercises and eventually will require Shen to work through them. I won't detail all the answers to the exercises but maybe I'll highlight some that I found particulary troubling. Anything in italics is my personal thoughts and insights. My headings will, more or less, match those from the book. There are 20 chapters (known as lectures) and this is the first one, so let's begin!
 
@@ -21,7 +21,7 @@ Maths and logics will be grouped under **proof systems**.
 - A proof system consists of 4 significant features: `syntax`, `semantics`, `proof rules`, and eventually, `heuristics`.
 Syntax is the rules to how to formulate a proper sentence with the right symbols in the formal language. Semantics is how we interpret what those sentences/symbols actually mean. Proof rules allow us to determine what is a proof and what isn’t in this particular formal language. Heuristics are found eventually; rules of thumb that allow us to solve problems in the formal language.
 
-## John Backus
+# John Backus
 
 - Backus helped create the first high level computer language, **Fortran** and also helped design **Algol 60**.
 - In order to specify Algol precisely, Backus developed a way of notating syntax. This is known and **Backus-Naur Form** or **BNF**.
@@ -47,14 +47,14 @@ Rule 2. <sentence> := a^<sentence>
 
 - **Parsing** is how we use a grammar for a language to show that some formula is a sentence of that language. This is how computers can understand the code we write to translate into machine instructions. (_It is also why the computer can't just parse any language arbitrarily, it needs the right interpreter/compiler with the proper parsing rules._)
 
-### Terminology
+#### Terminology
 
 - A series of rules providing the syntax for a language is called a **grammar**. 
 - Any symbol that appears to the right of the `:=` but not to the left of it is called a **terminal**. 
 - The symbol `<sentence>` is called the **distinguished symbol**.
 - Any rule which has a symbol to the right of the `:=` and to the left of it is called **recursive**.
 
-## Extended BNF
+# Extended BNF
 
 - **Extended BNF** adds to the **BNF** notation by allowing convenient shorthand.
 - An example, going back to the L<sub>0</sub> grammar, we can redefine it as such:
@@ -66,7 +66,7 @@ Rule 2. <sentence> := a^<sentence>
 - the `|` is shorthand for an alternative expansion. So it reads "A \<sentence\> can be composed of a single letter 'a' OR a single letter 'a' concatenated with another \<sentence\>"
 - Other shorthand notation: `ε` is the empty expansion meaning something can be removed. <sup>`+`</sup> means one or more and <sup>`*`</sup> means zero or more.
 
-### Exercise 1.6
+#### Exercise 1.6
 
 _So, this exercise, when I first encountered it, scrambled my brain. I could not figure it out._
 
@@ -93,7 +93,7 @@ _Or if you prefer in Extended BNF:_
 
 - _There is one major thing of importance. One of the exercises defines a grammar for basic arithmetic. What's not mentioned is that this lecture mainly focused on how syntax is built and not semantics, so proving something like `(5 + 3 ) = (8 / 2)` can serve to confuse when one forgets that you're only meant to prove that it is a properly formed sentence based on the rules, not that it's correct or true._
 
-## Beyond BNF
+# Beyond BNF
 
 - BNF grammars are considered **type 2** or **context-free**
 - A language whose syntax is characterized by context-free grammars is called a **context-free language**
