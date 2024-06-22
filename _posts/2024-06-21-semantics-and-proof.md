@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Lecture 2: Semantics and Proof"
-date: 2022-10-24 13:03:00 -0400
+title: "Lecture 2: Semantics and Proof Pt 1"
+date: 2024-06-21 13:03:00 -0400
 categories: formal languages
 ---
 
 ## Semantics and Proof
 
-*BTW, It's been 2 years since my last post. I'm getting back into things and I will also add that I have a firm grip on what **context free** and **context sensitive** means! It is the difference between knowing what the 'It' refers to in the beginning of this sentence.*
+*BTW, It's been 2 years since my last post (2024 edit: much longer still). I'm getting back into things and I will also add that I have a firm grip on what **context free** and **context sensitive** means! It is the difference between knowing what the 'It' refers to in the beginning of this sentence.*
 
 # Model Theory
 
@@ -57,3 +57,4 @@ A proof usually follows a pattern of "Theorem: if such-and-such then so-and-so" 
 <pre>Where Δ is a list of assumptions and <i>p</i> the conclusion and where n ≥ 0;
 a sequent of the form Δ, <i>p</i> is provable if the sequents S<sub>0</sub>....S<sub>n</sub> are provable.</pre>
 
+This is Part 1 because it has been sitting on my computer for ages (including my original update) and I just want to post. I may get back into this series but up until this point, it's fine.
