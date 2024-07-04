@@ -2,7 +2,7 @@
 layout: post
 title: "Lecture 1: Formal Languages"
 date: 2020-05-01 14:25:00 -0400
-categories: formal languages
+categories: [formal languages]
 ---
 
 ## Formal languages
