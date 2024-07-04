@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Idris2 Setup on Windows 10"
 date: 2024-06-21 22:46:00 -0400
-categories: programming languages
+categories: [programming languages]
 ---
 
 I couldn't find any information on this in detail so I had to endure this through trial and error. Here is how I got Idris2 up and running on Windows 10.
