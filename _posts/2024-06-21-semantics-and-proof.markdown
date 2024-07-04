@@ -2,7 +2,7 @@
 layout: post
 title: "Lecture 2: Semantics and Proof Pt 1"
 date: 2024-06-21 13:03:00 -0400
-categories: formal languages
+categories: [formal languages]
 ---
 
 ## Semantics and Proof
