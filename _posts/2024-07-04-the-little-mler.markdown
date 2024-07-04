@@ -85,7 +85,7 @@ is_veggie(Onion(Lamb(Bottom(Rod Fork)))) (* false *)
 
 is_veggie(Onion(Bottom(Lamb(Bottom(Rod Fork))))) (* This does not typecheck and fails to compile!*)
 ```
-But, as you can see, it prevents us from creating the ill-typed expression in the end! Finally, this also ignores the fact that later in the chapter, a `what_bottom : α shish -> α` function which is supposed to reveal whatever value is in α but with the restriction, the function `what_bottom : α shish -> bottoms` will simply reveal only values from the `bottoms` type.
+But, as you can see, it prevents us from creating the ill-typed expression in the end! Finally, this also ignores the fact that later in the chapter, a `what_bottom : α shish -> α` function is introduced which is supposed to reveal whatever value is in α but with the restriction, the function `what_bottom : α shish -> bottoms` will simply reveal only values from the `bottoms` type.
 
 ## Conclusion
 
