@@ -2,7 +2,7 @@
 layout: post
 title: "A Type of Problem"
 date: 2024-07-04 12:00:00 -0400
-categories: functional programming, ML, SML
+categories: [functional programming, ML, SML]
 ---
 
 # The Little MLer
@@ -85,7 +85,7 @@ is_veggie(Onion(Lamb(Bottom(Rod Fork)))) (* false *)
 
 is_veggie(Onion(Bottom(Lamb(Bottom(Rod Fork))))) (* This does not typecheck and fails to compile!*)
 ```
-But, as you can see, it prevents us from creating the ill-typed expression in the end! Finally, this also ignores the fact that later in the chapter, a `what_bottom : α shish -> α` function is introduced and my solution makes the need for this function unnecessary because the answer will always be `bottoms`.
+But, as you can see, it prevents us from creating the ill-typed expression in the end! Finally, this also ignores the fact that later in the chapter, a `what_bottom : α shish -> α` function is introduced and my solution makes the need for this function unnecessary because the answer will always be of type `bottoms`.
 
 ## Conclusion
 
