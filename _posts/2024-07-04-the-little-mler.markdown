@@ -31,7 +31,7 @@ datatype plate =
  | Brass_plate
 ```
 
-Then we are presented with a function `is_veggie : α shish -> bool` that checks if any `α shish` object is veggie or not by returning `false` for any shish that contains Lamb and `true` for the rest. Here is its definition:
+Then we are presented with a function `is_veggie : α shish -> bool` that checks if any `α shish` object is veggie or not by returning `false` for any shish that contains `Lamb` and `true` for the rest. Here is its definition:
 
 ```
 fun is_veggie(Bottom(x)) = true
