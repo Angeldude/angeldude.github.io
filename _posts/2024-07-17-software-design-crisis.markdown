@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Design Crisis"
-date: 2020-07-17 15:38:00 -0400
+date: 2024-07-17 15:38:00 -0400
 categories: [philosophy, pedagogy, software design]
 ---
 
