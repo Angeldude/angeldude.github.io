@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spell Check in SML?"
-date: 2024-07-25 30:34:00 -0400
+date: 2024-07-25 18:34:00 -0400
 categories: [data structures, programming, software design, learning]
 ---
 
