@@ -79,7 +79,7 @@ A Red-Black tree is meant to be a self-balancing tree with special properties th
 
 A trie (pronounced 'try' even though it comes from the word 'retrieval') is THE data structure I've been looking for. It is widely used as a DS for strings. My main issue with the RBTree was that each node was storing an exact string and something about that felt very inefficient to me. The trie, however, works a little differently. It is a tree that, instead of storing the string in a node, it makes each node a character of that string. That way, you can build off many words if mapped properly.
 
-![a trie representation](../assets/images/trie.png)
+![a trie representation](/assets/images/trie.png)
 
 That is a rough approximation of what the tree looks like. You can see that you can create the words "cat","car","cart","dip". With an alphabetical list of words, the mapping to this data structure works really well! In fact, this data structure is what allows for autocomplete and autocorrect and spelling suggestions to work. If I wanted to enhance my spell checker, I would not have any problem making it suggest words that were misspelled.
 
